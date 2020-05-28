@@ -1,0 +1,23 @@
+{
+  "name": "jsweatherapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonOkello/jsweatherapp.git"
+  },
+  "author": "Simon Dennis Okello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonOkello/jsweatherapp/issues"
+  },
+  "homepage": "https://github.com/SimonOkello/jsweatherapp#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "yargs": "^15.3.1"
+  }
+}
