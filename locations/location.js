@@ -18,19 +18,19 @@ const getLatitudeLongitude = async( dir ) => {
 
     const data      = resp.data.Results[0];
     const address = data.name; 
-    const latitude = data.latitude; 
-    const longitude = data.longitude; 
+    const lat = data.lat; 
+    const lng = data.lon; 
 
 
     return {
         address,
-        latitude,
-        longitude
+        lat,
+        lng
     }
 }
 
 
 module.exports = {
-    getLatitudeLongitude
+    getPlaceLatLng
 }
 
