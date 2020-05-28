@@ -8,8 +8,8 @@ let getInfo = async(address) => {
 
     try {
         
-        let coors = await place.getPlaceLatLng(address);        
-        let temp = await weather.getWeather(coors.lat, coors.lng);
+        let coors = await place.getLatitudeLongitude(address);        
+        let temp = await weather.getWeatherInfo(coors.lat, coors.lng);
         
 
         return `The Weather in ${coors.address} on ${Date(Date.now())} is ${temp}°C`;
