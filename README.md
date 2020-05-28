@@ -11,9 +11,8 @@ You need to install nodejs and npm on your computer.
 
 Download Nodejs for Windows [Here](https://nodejs.org/en/#home-downloadhead)
 
-For linux, open the terminal `Ctrl+ T` and type `sudo apt install nodejs
+For linux, open the terminal `Ctrl+ T` and type `sudo apt install nodejs`
 
-`
 For MacOS, open the terminal and type `brew install node`
 
 
