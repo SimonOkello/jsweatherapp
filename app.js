@@ -1,7 +1,7 @@
 
 const argv = require('./config/yargs').argv;
-const place = require('./location/location');
-const weather = require('./weather/weather');
+const place = require('./locations/location');
+const weather = require('./weatherinfo/weather');
 
 
 let getInfo = async(address) => {
