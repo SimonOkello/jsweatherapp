@@ -31,6 +31,6 @@ const getLatitudeLongitude = async( dir ) => {
 
 
 module.exports = {
-    getPlaceLatLng
+    getLatitudeLongitude
 }
 
